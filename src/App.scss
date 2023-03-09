@@ -1,0 +1,27 @@
+@import "./assets/styles/variables";
+@import "./assets/styles/functions";
+@import "./assets/styles/mixins";
+
+.background--green {
+    background-color: set-color($green);
+}
+.background--red {
+    background-color: set-color($red);
+}
+.background--cyan {
+    background-color: set-color($lightBlue);
+}
+.text--white {
+    color: set-color($white)
+}
+.object-fit-cover {
+    object-fit: cover;
+}
+.flex-justify-between {
+    @include flex-justify-between;
+}
+
+.product-card:hover {
+    background-color: $lightBlue;
+    @include transition-ease
+}

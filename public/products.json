@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "price": 750,
+      "productImage": "product-1.jpg",
+      "productName": "Striped shirt",
+      "availableColor":["red","blue","green"]
+    },
+    {
+      "id": 2,
+      "price": 240,
+      "productImage": "product-2.jpg",
+      "productName": "Denim shirt",
+      "availableColor":["red","blue","green"]
+    },
+    {
+      "id": 3,
+      "price": 320,
+      "productImage": "product-3.jpg",
+      "productName": "Plain cotton t-shirt",
+      "availableColor":["red","blue","green"]
+    },
+    {
+      "id": 4,
+      "price": 640,
+      "productImage": "product-4.jpg",
+      "productName": "Plain sleeve cotton t-shirt",
+      "availableColor":["red","blue"]
+    },
+    {
+      "id": 5,
+      "price": 850,
+      "productImage": "product-5.jpg",
+      "productName": "Plaso",
+      "availableColor":["red","blue","green"]
+    }
+  ]
