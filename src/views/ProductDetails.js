@@ -15,8 +15,11 @@ const ProductDetails = () => {
   useEffect(() => {
     setIsFetchingProducts(true);
     getProductsApi().then((res) => {
-      setIsFetchingProducts(false);
-      setProduct(res.data.find((item) => item.id == id));
+      const _product = res.data.find((item) => item.id == id);
+      if(_product){
+        setIsFetchingProducts(false);
+        setProduct(_product);
+      }
     });
   }, []);
 
